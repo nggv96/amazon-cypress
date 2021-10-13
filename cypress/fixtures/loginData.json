@@ -1,0 +1,8 @@
+{
+  "userName": "Example",
+  "userEmail": "texample585@gmail.com",
+  "wrongUserEmail": "12fake34@gmail.com",
+  "password": "Example.123",
+  "wrongPassword": "admin12345",
+  "wrongPasswordCopy": "There was a problem Your password is incorrect"
+}
