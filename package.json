@@ -1,0 +1,24 @@
+{
+  "name": "amazon-cypress",
+  "version": "1.0.0",
+  "description": "UI testing using Cypress framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nggv96/amazon-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nggv96/amazon-cypress/issues"
+  },
+  "homepage": "https://github.com/nggv96/amazon-cypress#readme",
+  "dependencies": {
+    "cypress": "^8.6.0",
+    "mochawesome": "^6.3.1"
+  }
+}
