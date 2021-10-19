@@ -11,6 +11,7 @@ describe('Test login at Amazon webpage',()=>{
         cy.fixture('loginData').then(function (data){
 
             this.data = data
+            
             cy.login(this.data.userEmail, this.data.password)
 
             cy.get('#nav-link-accountList-nav-line-1').contains(this.data.userName)

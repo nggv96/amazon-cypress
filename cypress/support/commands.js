@@ -1,4 +1,6 @@
 Cypress.Commands.add('login',(userName, password) =>{
+    cy.get('#nav-link-accountList').invoke('show')
+    cy.contains('Sign').click({force: true})
     cy.get('#ap_email').type(userName)
     cy.get('.a-button-inner > #continue').click()
     cy.get('#ap_password').type(password)

@@ -1,1 +1,15 @@
-{}
+{
+    "watchForFileChanges": false,
+    "responseTimeout": 6000,
+    "screenshotOnRunFailure": false,
+    "video": false,
+    "baseUrl": "https://amazon.com",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "code": false,
+        "overwrite": true,
+        "reportFilename": "amazon-cypress",
+        "autoOpen": true,
+        "charts": true
+    }
+}
